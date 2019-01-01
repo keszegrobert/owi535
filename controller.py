@@ -5,7 +5,7 @@ from evdev import InputDevice, categorize, ecodes
 #identify your game controller by typing: ls -l /dev/input
 # or: python -m evdev.evtest
 
-gamepad = InputDevice('/dev/input/event4')
+gamepad = InputDevice('/dev/input/event0')
 
 #prints out device info at start
 print(gamepad)
